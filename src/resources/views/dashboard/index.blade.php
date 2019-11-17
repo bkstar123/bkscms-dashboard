@@ -33,7 +33,7 @@
             <div class="card-header">
                 <h3 class="card-title">
                     <span class="badge bg-green">
-                        CPU usage
+                        CPU
                     </span>
                 </h3>
             </div>  
@@ -41,7 +41,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <span id="cpu-usage-value" class="badge bg-green">
-                            CPU: {{ $sysinfo['cpu_usage'] }}%
+                            CPU usage: {{ $sysinfo['cpu_usage'] }}%
                         </span>
                     </div>&nbsp;
                     <div class="col-md-12">
@@ -66,7 +66,7 @@
             <div class="card-header">
                 <h3 class="card-title">
                     <span class="badge bg-info">
-                        Memory usage (Total memory: {{ $sysinfo['memory_total'] }} GB)
+                        Memory ({{ $sysinfo['memory_total'] }} GB)
                     </span>
                 </h3>
             </div>  
@@ -74,7 +74,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <span id="memory-usage-value" class="badge bg-info">
-                            Memory: {{ $sysinfo['memory_usage'] }}%
+                            Memory usage: {{ $sysinfo['memory_usage'] }}%
                         </span>
                     </div>&nbsp;
                     <div class="col-md-12">
@@ -99,7 +99,7 @@
             <div class="card-header">
                 <h3 class="card-title">
                     <span class="badge bg-primary">
-                        Disk usage (Total disk: {{ $sysinfo['hdd_total'] }} GB)
+                        Disk space ({{ $sysinfo['hdd_total'] }} GB)
                     </span>
                 </h3>
             </div>  
@@ -107,7 +107,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <span id="memory-usage-value" class="badge bg-primary">
-                            HDD: {{ $sysinfo['hdd_usage'] }}%
+                            HDD usage: {{ $sysinfo['hdd_usage'] }}%
                         </span>
                     </div>&nbsp;
                     <div class="col-md-12">
