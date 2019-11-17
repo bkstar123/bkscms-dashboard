@@ -12,7 +12,7 @@ For creating a **BKSCMS** project, run the following command:
 ```composer create-project --prefer-dist bkstar123/bkscms <your-project>```  
 
 ## 1. Requirement
-It is recommended to install this package with PHP version 7.1.3+ and Laravel Framework version 5.6+. The package support the host OS of either CentOS 6 or CentOS 7.  
+It is recommended to install this package with PHP version 7.1.3+ and Laravel Framework version 5.6+. The package supports host OS of either CentOS 6 or CentOS 7.  
 
 ## 2. Installation
     composer require bkstar123/bkscms-dashboard
